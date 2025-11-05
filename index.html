@@ -1,12 +1,261 @@
-<!DOCTYPE html>
-<html lang="eng">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Coding Tutorial</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>hello world</h1>
-  </body>
+<!-- Welcome to the source code! this is a HTML comment! -->
+
+<!DOCTYPE html> <!-- this defines the document type -->
+
+<html lang="en"> <!-- all your code will go inside the html tag -->
+
+    <head> <!-- this is the head tag. it contains meta information about the webpage -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta charset="UTF-8">
+        <title>LEAF'S WORKSHOP!!!!</title> <!-- the title tag is the text that is displayed in the tab -->
+        <style> 
+        	body {
+        		max-width: 900px;
+        		margin: auto;
+        		font-family: 'Trebuchet MS', sans-serif;
+        		font-size:20px;
+        		background-color: azure;
+        		color:midnightblue;
+        	}
+        	
+        	code {
+        		font-size: 15px;
+        		background-color: lightblue;
+        		border: 1px solid darkgrey;
+        		border-radius: 5px 5px 5px 5px;
+        		padding: 1px;
+        	}
+        	
+        	pre {
+        		font-size:16px;
+        		background-color: lightblue;
+        		border: 1px solid darkgrey;
+        		border-radius: 5px 5px 5px 5px;
+        		padding: 1px;
+        </style>
+    </head>
+    <body> <!--  This is where the content of your page goes. Everything in here is what will be displayed on the webpage-->
+        <h2>How to make a website!</h2>
+        <p>sites i referenced are linked at the end &lt;3</p>
+        
+        <h3>Web Revival: What is it?</h3>
+        <p>The web revival is a movement focused on reclaiming technology and 
+        reviving the spirit of the internet in its early days.
+        It involves movements such as the indie web, old web, and small web. </p>
+        <p>Some older sites that these movements draw inspiration from are Geocities and MySpace.</p>
+        
+        <h3>HTML</h3>
+        <h4>What is HTML?</h4>
+        <p>HTML stands for <span style='text-decoration-line:underline;'>H</span>yper<span style='text-decoration-line:underline;'>t</span>ext 
+        <span style='text-decoration-line:underline;'>M</span>arkup 
+        <span style='text-decoration-line:underline;'>L</span>anguage. 
+        It is used to describe the structure of a webpage. 
+        <br>HTML consists of a series of elements, which tell browsers what to display on a web page. 
+        <br>An element is made up of an opening tag, content, and a closing tag.
+        <br><code>&lt;opening tag&gt; Content &lt;closing tag&gt;</code></p>
+        <p>CSS is what we use to style a HTML document. We will come back to this later!</p>
+        <p>Javascript is the language used to make webpages do things.</p>
+        
+        <h4>HTML Editors</h4>
+        <p>You can use a basic text editor to write HTML code, or more advanced programs such as Visual Studio Code.</p>
+        <p>We will be using Notepad to code today! I think learning to code in Notepad is so cute.</p>
+        <p>As you move on with HTML, you should move on to a better editor, as they are built for coding and increase legibility. 
+        Some other editors include:</p>
+        <ul>
+        	<li>Visual Studio Code</li>
+        	<li>Notepad++</li>
+        	<li>Brackets</li>
+        </ul>
+        
+        <p>Text Editors:
+        <br>Windows: Notepad
+        <br>Mac: TextEdit
+        <br>Linux: Text Editor<!-- instagram story ask if anyone is using linux... --></p>
+        
+        <h4>Structure of a HTML Document</h4>
+        <p>Before we write any HTML, we're going to look at some! To view the source code of a webpage, 
+        press <code>ctrl + u</code></p>
+        <p>HTML does not need indentation to work, but it makes it much easier to see where everything is.</p>
+        
+        <p><code>&lt;!DOCTYPE html&gt;</code> this defines the document type</p>
+        <p><code>&lt;html&gt;</code> all your code will go inside the html tag</p>
+        <p><code>&lt;head&gt;</code> contains meta information about the webpage
+        <br><code>&lt;title&gt;</code> the title of the webpage (the name shown in the tab)</p>
+        
+        
+        <h4>&lt;body&gt;</h4>
+        <p>the &lt;body&gt; tag is where all the contet for your site goes. everything in here will be displayed on your webpage.</p>
+        <p>Headings: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>
+        <br>Paragraph: <code>&lt;p&gt;</code>
+        <br>Links: <code>&lt;a&gt;</code>
+        <br>Images: <code>&lt;img&gt;</code> <!-- add images for people to put on their sites -->
+        <br>Lists: <code>&lt;ul&gt;</code> for an unordered list (bullet points),
+        and <code>&lt;ol&gt;</code> for a numbered list.
+        list items are added with <code>&lt;li&gt;</code>
+        <br><code>&lt;span&gt;</code> can be used to create a span of code that is styled differently
+        <br><code>&lt;div&gt;</code> is used to separate code into 'sections', which are incredibly useful
+        for styling and creating layouts.</p>
+        
+        <p>Empty elements are HTML elements that do not need closing tags. <code>&lt;img&gt;</code> and <code>&lt;br&gt;</code> 
+        (line break) are empty elements</p>
+        <p>Block level vs. inline elements:
+        <br>Block level elements start on a new line. <code>&lt;p&gt;</code> and <code>&lt;div&gt;</code>
+        <br>Inline elements do not start on a new line. <code>&lt;a&gt;</code> and <code>&lt;b&gt;</code> (bold text).</p>
+        
+        <h3>Activity!!</h3>
+        <h4>making your first webpage</h4>
+        <ol>
+        	<li>create a new folder on your computer.</li>
+        	<li>open your text editor, and save your file in this folder as 'index.html'</li>
+        	<li>copy the code below & paste it into your html file:</li>
+        	<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	
+	&lt;body&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+        	</pre>
+        	<li>add a Title to your page</li>
+        	<li>add some content inside the &lt;body&gt; tags, using some of the examples i've given.</li>
+        	<li>to view your webpage, click on the file</li>
+        </ol>
+        
+        <h3>CSS</h3>
+        <p>CSS stands for <span style='text-decoration-line:underline;'>C</span>ascading
+        <span style='text-decoration-line:underline;'>S</span>tyle <span style='text-decoration-line:underline;'>S</span>heets.</p>
+        <p>Here are some cool examples of how CSS can be used to style a webpage:</p>
+        
+        <iframe src="https://nenrikido.neocities.org/" height="400" width="900"></iframe>
+        
+        <iframe src="https://espy.world/home" height="400" width="900"></iframe>
+        
+        <iframe src="https://caitsith.neocities.org/myhomepage" height="400" width="900"></iframe>
+        
+        <p>There are multiple ways of adding CSS to a page: inline, internal, and external.</p>
+        <p><b>Inline:</b> style is defined inside of a html tag
+        <br><code>&lt;p style='color:red;'&gt;Red Text&lt;/p&gt;</code>
+        <br>Output:</p>
+        <p style='color:red;'>Red Text</p>
+        <p><b>Internal:</b> CSS is used in the html <code>&lt;head&gt;</code> tag, by adding <code>&lt;style&gt;&lt;/style&gt;</code></p>
+        <p><b>External:</b> CSS is written in a separate 'style.css' document and linked in the head tag with 
+        <br><code>&lt;link rel='stylesheet' href='style.css'&gt;</code></p>
+        
+        <h4>CSS Format</h4>
+        <pre>
+element {
+    property:value;
+    property:value;
+}
+        </pre>
+        
+        <h4>CSS Properties</h4>
+        <p><b>Color:</b> sets the text colour (note that CSS uses american spellings!)
+        <br><b>Background:</b> sets the background colour
+        <br><b>Background-image:</b> sets a background image
+        <br><b>Font-family:</b> sets a Font-family
+        <br><b>Height & Width:</b> sets an element's size</p>
+        
+        <h4>CSS box model</h4>
+        <img src="https://htmlcss.learn.uno/html-and-css/css-box-model/css-box-model-73a525.png" width="400px">
+        
+        <h3>Activity!!!</h3>
+        <h4>Styling your webpage</h4>
+        <ol>
+        	<li>add <code>&lt;style&gt; &lt;/style&gt;</code> tags in the &lt;head&gt; section of your html document</li>
+        	<li>change the style of your html document. some ideas if you're stuck:
+        	<ul>
+        		<li>change the background of the entire page</li>
+        		<li>change the font size of the &lt;p&gt; tags</li>
+        		<li>make all your links a different colour</li>
+        		<li>give a border to your headings</li>
+        	</ul></li>
+        </ol>
+        
+        <p><a href="https://pixelmoondust.neocities.org/archives/archivedtiles" target="_blank">here</a> are some background images</p>
+        
+        <h3>Accessibility</h3>
+        <p>Something to keep in mind while making your website is keeping it accessible, especially 
+        with portfolio websites. This can include making it accessible for screen readers,
+        keyboard navigation, photosensitivity, and mobile phones.</p>
+        <p><a href="https://www.accessguide.io/" target="_blank">accessguide.io</a> cool & simple guides for basic accessibility</p>
+        <p><a href="https://wave.webaim.org/" target="_blank">wave.webaim.org</a> an evaluation tool</p>
+        <p><a href="https://goodinternetmagazine.com/can-accessibility-be-whimsical/" target="_blank"> can accessibility be 
+        whimsical?</a> an article on accessibility on personal websites</p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" target="_blank">Mozilla Developer Notes</a> 
+        tutorials on web accessibility</p>
+        
+        <h3>How to add more pages to your website</h3>
+        <p>Adding a new html document to your root folder (don't do this) e.g. root/about.html
+        <br>I say not to do this because i think it is a bad habit to get into, and can make your site 
+        very disorganised down the line. I also think it's ugly when it shows in a url ^_^.</p>
+        <p>Adding a new folder with the name of the page, then give this folder its own index.html file.</p>
+        
+        <h4>What to put on your site??</h4>
+        <ul>
+        	<li><b>guestbook/chatbox</b> a place where people can comment on your webpage</li>
+        	<li><b>join a webring</b> webrings are groups of sites linked together. usually they revolve around specific themes.</li>
+        	<li><b>create a landing page</b> a landing page is the first page you see when you enter a website, usually the homepage. 
+        	on personal websites, you will often see a landing page with some inforamtion about the site and an 'Enter' button.</li>
+        	<li><b>create a button wall</b> Site buttons are 88x31px buttons for websites. colect them from around the web and add them to your site!
+        	<ul>
+        		<li><a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button6.gif"></a><!-- button by s1nez.nekoweb.org -->
+        		<a href="https://nenrikido.neocities.org/"><img src="https://dl.dropbox.com/s/265wg2om8bjr5g6/nenrikido_button.gif"></a>
+        		<a href="https://espy.world/"><img src="https://espy.world/img/button.gif"></a>
+        		<a href="https://caitsith.neocities.org/">
+        			<img src="https://caitsith.neocities.org/sitebutton.gif" alt="the button of caitsith.neocities.org " width="88" height="31">
+        		</a></li>
+        	</ul></li>
+        	<li>more ideas on <a href="https://32bit.cafe/websiteideas/" target="_blank">32-bit cafe</a></li>
+        </ul>
+        
+        <h3>How to host your site on the interwebs</h3>
+        <p>To put your site online, you will need to find a host. Some free hosts that I have used are:</p>
+        <ul>
+        	<li>Neocities</li>
+        	<li>Nekoweb</li>
+        	<li>Github Pages</li>
+        </ul>
+        <p>In my opinion, these are better suited to hobby & personal sites. For portfolio websites, you can look 
+        <a href="https://web.pixelshannon.com/freehosts/" target="_blank">here</a> for more free site hosts.</p>
+        <p>when you have an account on a hosting site, you can either upload a site from your computer or create a new one.</p>
+        
+        <h3>My Advice</h3>
+        <p>Be curious, adventurous, and ambitious!</p>
+        <p>The best way to learn how something works is to break it & put it back together.</p>
+        <p>some good habits:</p>
+        <ul>
+        	<li>adding <code>target='_blank'</code> to a link will make it open in a new tab</li>
+        	<li>keep your files organised</li>
+        	<li>don't use spaces in file or folder names</li>
+        	<li>leave mesages in people's guestbooks :)</li>
+        	<li>focus on adding content to your site & don't worry yourself about creating a layout immediately</li>
+        	<li>a lot of people will ask you not to hotlink images from their site. 
+        	this means you should download any images you want to use & host them yourself, rather than linking their website.</li>
+        	<li>if you want to copy & paste large chunks of code, instead re-write them line by line so you can see how it works</li>
+        	<li>your website is yours! </li>
+        </ul>
+        
+        <h4>Surfing the web</h4>
+        <p>How to find cool personal sites on the 'net:</p>
+        <ol>
+        	<li>Find the links page on a site</li>
+        	<li>Click on a site button</li>
+        	<li>Have a nose around</li>
+        	<li>Repeat!</li>
+        </ol>
+        
+        <h4>Resources</h4>
+        <p><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></p>
+        <p><a href="https://32bit.cafe/" target="_blank">32bit.cafe</a></p>
+        <p><a href="https://thoughts.melonking.net/guides/introduction-to-the-web-revival-1-what-is-the-web-revival" target="_blank">melonking.net</a></p>
+        <p><a href="https://dokode.moe/learn/" target="_blank">dokode.moe</a></p>
+        <p><a href="https://ribozone.github.io/artsite/" target="_blank">ribo.zone</a></p>
+        <p><a href="https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/" target="_blank">localghost.dev</a></p>
+        
+        
+    </body>
 </html>
+
